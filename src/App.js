@@ -31,7 +31,7 @@ function App(){
 
       <br/>
 
-      { show && (number1 != 0 && number2 != 0) &&
+      { show && (number1 != 0 || number2 != 0) &&
 
         <>
           <p>{number1} + {number2} = {parseFloat(number1)+parseFloat(number2)}</p>
